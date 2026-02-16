@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <title>Task Scheduler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Task Scheduler</h1>
+
+   <div class="form">
+    <input id="title" placeholder="Task title">
+
+    <input id="deadline" type="date">
+    <input id="time" type="time">
+
+    <select id="priority">
+        <option>Low</option>
+        <option>Medium</option>
+        <option>High</option>
+    </select>
+
+    <button onclick="addTask()">Add Task</button>
+</div>
+
+
+    <ul id="taskList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
